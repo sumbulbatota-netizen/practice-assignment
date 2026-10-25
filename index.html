@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numbers = [10, 20, 30, 40, 50];
+        console.log(numbers);
+        
+        let fruits = ["Apple", "Mango", "Banana"]
+        console.log(fruits[0]);
+        console.log(fruits[2]);
+
+        let fruit =["Apple", "Banana"];
+        fruit.push("Mango");
+        console.log(fruit);
+        
+        let number = [20, 20, 30, 30, 50,];
+        console.log(number.length);
+        
+        function sayHello() {
+            console.log("Hello World");
+        }
+        sayHello();
+
+
+        function addNumbers(a, b) {
+            console.log(a + b);
+        }
+        addNumbers(5, 3);
+
+        function square(number) {
+            return number * number;
+        }
+        let result = square(4);
+        console.log(result);
+
+        function checkEvenOdd(number) {
+            if (number % 2 === 0) {
+                return "Even";
+            } else {
+                return "odd";
+            }
+        }
+        console.log(checkEvenOdd(7));
+
+        function findLargest(a, b) {
+            if (a > b) {
+                return a;
+            } else {
+                return b;
+            }
+        }
+        console.log(findLargest(15, 8))
+
+        function welcome(name) {
+            console.log("welcome," + name + "!");
+        }
+    welcome("sara");
+
+    let student = {
+        name: "Sara",
+        age: 19,
+        class: "12th"
+    };
+    console.log(student.name);
+    console.log(student.age);
+    console.log(student.class)
+
+    let car = {
+        brand: "Toyota",
+        model: "Corolla",
+        color: "White"
+ };
+ console.log(car.brand);
+
+      let students = {
+        namee: "Ali",
+        age: 18,
+      };
+      students.age = 20;
+      console.log(students.age);
+
+      function sumArray(numbers) {
+        let sum = 0;
+        for (let i = 0; i < 
+numbers.length; i++) {
+    sum = sum + numbers[i];
+}
+     return sum;
+}
+console.log(sumArray([10, 20, 30,]));
+
+let student2 = {
+    name: "Ali",
+    marks: 85 
+};
+  function printStudent() {
+    console.log(student2.name);
+    console.log(student2.marks);
+}
+printStudent();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
